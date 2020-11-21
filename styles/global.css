@@ -1,16 +1,15 @@
 html,
-body,
-#__next {
-    min-height: 100%;
-    height: 100%;
-    width: 100%;
-}
-
 body {
     margin: 0;
-    padding: 0;    
+    padding: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
 * {
@@ -19,14 +18,70 @@ body {
 }
 
 h1 {
-    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-family: MonumentExtended;
     font-size: 1rem;
     font-weight: 600;
 }
 
-p {
-    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+p1 {
+    font-family: BwGradual-Regular;
     font-size: 0.7rem;
     font-weight: lighter;
 }
+
+
+@font-face {
+    font-family: "MonumentExtended";
+    src: url("/fonts/titles/MonumentExtended-Regular.woff");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "BWGradual-Bold";
+    src: url("/fonts/body/BwGradual-Bold.woff");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "BWGradual-ExtraBold";
+    src: url("/fonts/body/BwGradual-ExtraBold.woff");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "BWGradual-Light";
+    src: url("/fonts/body/BwGradual-Light.woff");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "BWGradual-Medium";
+    src: url("/fonts/body/BwGradual-Medium.woff");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "BWGradual-Regular";
+    src: url("/fonts/body/BwGradual-Regular.woff");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "BWGradual-Thin";
+    src: url("/fonts/body/BwGradual-Thin.woff");
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
 

@@ -1,16 +1,102 @@
-.navBarStyle {
+.navWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  width: auto;
+  align-items: center;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #333;
+  border-style: none none solid none;
+  border-width: 1px;
+  border-color: white;
+}
+
+
+
+.rightSide {
+  display: flex;
+  font-family: MonumentExtended;
+}
+
+.leftSide {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: BwGradual-ExtraBold;
+}
+
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.li {
+  padding: 0px 20px;
+}
+
+.li a {
+  text-decoration: none;
+  font-size: 0.7em;
+  font-weight: 200;
+  color: white;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.li a:hover {
+  background: -webkit-linear-gradient(rgb(143, 5, 207), rgb(231, 0, 181));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.signUpButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgb(143, 5, 207), rgb(231, 0, 181));  
+  text-decoration: none;
+  border-style: none;
+  border-radius: 25px;
+  height: 35px;
+  width: 100px;
+  margin-left: 20px;
+  color:white;
+  font-family: BwGradual-ExtraBold;
+  font-size: 13px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.signUpButton:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.icon {
+  display: none;
+  transform: scale(1.5,1.5);
+  color: white;
+  margin-left: 10px;
+  text-decoration: none;
+  background-color: green;
+}
+
+
+
+@media screen and (max-width: 1100px) {
+  .li {display: none;}
+  .icon {
     display: flex;
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    width: 100%;
-    height: 8vh;
-    padding: 0 20px;
+    justify-content: center;
     align-items: center;
-    box-sizing: border-box;
-    justify-content: flex-start;
-    border-style: none none solid none;
-    border-width: 1px;
-    border-color: white;
+  }
 }

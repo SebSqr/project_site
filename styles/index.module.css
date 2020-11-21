@@ -1,0 +1,65 @@
+.mainContainer {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+
+.mainContent {
+    display: flex;
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+    color: white;
+}
+
+.leftCol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 100%;
+    padding-left: 15px;
+    margin-right: 10px;
+}
+
+.rightCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+    width: 66%;
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 10px;
+}
+
+.buttonContainer {
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    padding-top: 15px;
+}
+
+
+.heart {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+
+.h1 {
+    padding-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.p1 {
+    font-size: 1.2em;
+}
